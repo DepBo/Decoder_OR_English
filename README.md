@@ -2,12 +2,15 @@
 
 Complete-project repository: <https://github.com/DepBo/Decoder_OR_English>. The earlier dataset release is preserved at <https://github.com/DepBo/Dataset_Paper_DecoderOr> for provenance.
 
+[Read the paper (PDF)](Realizing_Arbitrary_Logic_Functions_Using_Decoders_and_OR_Gates_for_Automated_Logic_Synthesis.pdf)
+
 This folder contains the manuscript and source used to study active-high Decoder-OR implementations of explicitly specified minterm functions. The current workflow has two separate Python stages: a benchmark front end creates routing JSON, then the compiler creates bounded-fan-in OR-tree Verilog. The front end can also emit a simpler flat-OR Verilog reference.
 
 ## Start here
 
 | Path | Purpose |
 | --- | --- |
+| `Realizing_Arbitrary_Logic_Functions_Using_Decoders_and_OR_Gates_for_Automated_Logic_Synthesis.pdf` | Readable paper PDF. |
 | `main.tex` | Paper source; this is the manuscript to compile and submit. |
 | `benchmark_dataset.json` | Five minterm-based combinational benchmarks. |
 | `decoder_or_synthesizer.py` | Selects a benchmark and emits routing JSON and/or flat-OR Verilog. |
