@@ -1,0 +1,56 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe experiments/physical_validation/run_3c.py --fanout-max 64
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 21.48s
+
+--- STDOUT ---
+======================================================================
+STEP 3C: PHYSICAL IMPLEMENTATION / FAN-OUT / BUFFERING VALIDATION
+======================================================================
+
+--- Part A: Environment & Tool Inspection ---
+  [FOUND  ] yosys      : Yosys 0.52 (git sha1 fee39a3284c90249e1d9684cf6944ffbbcbb8f90)
+  [FOUND  ] yosys-abc  : UC Berkeley, ABC 1.01 (compiled May  4 2025 16:37:33)
+  [FOUND  ] ngspice    : ******
+  [MISSING] openroad   : Not installed in environment
+  [MISSING] opensta    : Not installed in environment
+  [FOUND  ] Sky130 Liberty : sky130_fd_sc_hd__tt_025C_1v80.lib
+  [MISSING] Sky130 LEF/PDK  : (LEF/GDS files not present in workspace)
+  --> Physical GDS/DEF place-and-route is environment-limited by missing OpenROAD/LEF.
+  --> Complete OpenROAD Tcl scripts generated for automated downstream execution.
+
+--- Part B: Generating OpenROAD Flow Scripts ---
+  [OK] Generated scripts in: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\scripts
+
+--- Part C: Controlled High-Fanout & Buffer Insertion Sweep ---
+  Running fanout N=1... done (2.9s) | Unbuf: 2 cells, 13.8 um2 | Buf: 2 cells (+0 bufs, None), 15.0 um2 (+9.09%)
+  Running fanout N=2... done (2.8s) | Unbuf: 3 cells, 21.3 um2 | Buf: 3 cells (+0 bufs, None), 22.5 um2 (+5.88%)
+  Running fanout N=4... done (2.2s) | Unbuf: 5 cells, 36.3 um2 | Buf: 5 cells (+0 bufs, None), 37.5 um2 (+3.45%)
+  Running fanout N=8... done (2.9s) | Unbuf: 9 cells, 66.3 um2 | Buf: 9 cells (+0 bufs, None), 68.8 um2 (+3.77%)
+  Running fanout N=16... done (3.0s) | Unbuf: 17 cells, 126.4 um2 | Buf: 19 cells (+2 bufs, buf_6x2), 167.7 um2 (+32.67%)
+  Running fanout N=32... done (2.9s) | Unbuf: 33 cells, 246.5 um2 | Buf: 39 cells (+6 bufs, buf_6x6), 342.8 um2 (+39.09%)
+  Running fanout N=64... done (3.0s) | Unbuf: 65 cells, 486.7 um2 | Buf: 79 cells (+14 bufs, buf_2x2, buf_4x1, buf_6x11), 628.1 um2 (+29.05%)
+
+--- Part D: Decoder Output Fan-Out Architectural Audit ---
+  Benchmark: BCD_to_7Segment    | Minterms Used: 10 | Max Fan-out:  7 (Y[8])
+  Benchmark: 3bit_Comparator    | Minterms Used: 64 | Max Fan-out:  1 (Y[8], Y[16], Y[17])
+  Benchmark: Full_Adder         | Minterms Used:  7 | Max Fan-out:  2 (Y[7])
+  Benchmark: Half_Adder         | Minterms Used:  3 | Max Fan-out:  1 (Y[1], Y[2], Y[3])
+  Benchmark: 2_to_1_MUX         | Minterms Used:  4 | Max Fan-out:  1 (Y[2], Y[3], Y[5])
+
+--- Part E: Exporting Validation CSV Reports ---
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\physical_fanout_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\buffer_insertion_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\physical_timing_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\physical_mapping_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\placement_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\routing_results.csv
+  [OK] Wrote: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\congestion_results.csv
+
+======================================================================
+STEP 3C PHYSICAL & BUFFERING VALIDATION COMPLETE
+======================================================================
+
+
+--- STDERR ---
+

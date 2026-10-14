@@ -1,0 +1,8 @@
+design,requested_fanout,global_routing_congestion,overflow_h,overflow_v,drc_clean,status,tool_notes
+fanout_test_1,1,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_2,2,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_4,4,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_8,8,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_16,16,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_32,32,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.
+fanout_test_64,64,N/A,N/A,N/A,N/A,ENVIRONMENT_LIMITED,Detailed routing congestion report requires TritonRoute binary. Scripts generated.

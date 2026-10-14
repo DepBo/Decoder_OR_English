@@ -1,0 +1,11 @@
+design,library,netlist,worst_path_delay_ps,logic_stages,topological_depth,total_gates,estimated_area_um2,startpoint,endpoint,critical_path_cells
+2_to_1_MUX,NangateOpenCellLibrary_typical,2_to_1_MUX_mapped_NangateOpenCellLibrary_typical.v,49.25,1,0,1,1.8600,pi2,po0,"MUX2_X1"
+2_to_1_MUX,sky130_fd_sc_hd__tt_025C_1v80,2_to_1_MUX_mapped_sky130_fd_sc_hd__tt_025C_1v80.v,260.32,1,0,1,11.2600,pi2,po0,"sky130_fd_sc_hd__mux2_1"
+3bit_Comparator,NangateOpenCellLibrary_typical,3bit_Comparator_mapped_NangateOpenCellLibrary_typical.v,201.32,4,0,45,47.6100,pi4,po1,"NOR2_X1; OAI221_X1; AOI211_X1; OAI221_X1"
+3bit_Comparator,sky130_fd_sc_hd__tt_025C_1v80,3bit_Comparator_mapped_sky130_fd_sc_hd__tt_025C_1v80.v,869.58,5,0,44,260.2500,pi4,po2,"sky130_fd_sc_hd__or3b_1; sky130_fd_sc_hd__o32ai_1; sky130_fd_sc_hd__a21oi_1; sky130_fd_sc_hd__a41oi_1; sky130_fd_sc_hd__or3_1"
+BCD_to_7Segment,NangateOpenCellLibrary_typical,BCD_to_7Segment_mapped_NangateOpenCellLibrary_typical.v,113.42,3,0,24,23.6700,pi3,po0,"INV_X1; AOI211_X1; OAI221_X1"
+BCD_to_7Segment,sky130_fd_sc_hd__tt_025C_1v80,BCD_to_7Segment_mapped_sky130_fd_sc_hd__tt_025C_1v80.v,544.81,3,0,19,116.3600,pi2,po3,"sky130_fd_sc_hd__mux2_1; sky130_fd_sc_hd__a21oi_1; sky130_fd_sc_hd__a31o_1"
+Full_Adder,NangateOpenCellLibrary_typical,Full_Adder_mapped_NangateOpenCellLibrary_typical.v,87.85,2,0,5,5.5900,pi2,po1,"XNOR2_X1; XNOR2_X1"
+Full_Adder,sky130_fd_sc_hd__tt_025C_1v80,Full_Adder_mapped_sky130_fd_sc_hd__tt_025C_1v80.v,331.98,1,0,2,33.7800,pi0,po1,"sky130_fd_sc_hd__xor3_1"
+Half_Adder,NangateOpenCellLibrary_typical,Half_Adder_mapped_NangateOpenCellLibrary_typical.v,47.72,1,0,2,2.6600,pi0,po1,"XOR2_X1"
+Half_Adder,sky130_fd_sc_hd__tt_025C_1v80,Half_Adder_mapped_sky130_fd_sc_hd__tt_025C_1v80.v,119.34,1,0,2,15.0100,pi1,po1,"sky130_fd_sc_hd__xor2_1"

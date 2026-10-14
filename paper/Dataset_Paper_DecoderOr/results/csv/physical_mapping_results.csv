@@ -1,0 +1,13 @@
+design,library,fanout,unbuffered_cells,unbuffered_area_um2,buffered_cells,buffered_area_um2,buffer_count,status
+fanout_test_1,sky130_fd_sc_hd,1,2,13.7632,2,15.0144,0,PASS
+fanout_test_2,sky130_fd_sc_hd,2,3,21.2704,3,22.5216,0,PASS
+fanout_test_4,sky130_fd_sc_hd,4,5,36.2848,5,37.536,0,PASS
+fanout_test_8,sky130_fd_sc_hd,8,9,66.3136,9,68.816,0,PASS
+fanout_test_16,sky130_fd_sc_hd,16,17,126.3712,19,167.6608,2,PASS
+fanout_test_32,sky130_fd_sc_hd,32,33,246.4864,39,342.8288,6,PASS
+fanout_test_64,sky130_fd_sc_hd,64,65,486.7168,79,628.1024,14,PASS
+BCD_to_7Segment,sky130_fd_sc_hd,7,10,Refer to Step 3B,10,Refer to Step 3B,0,PASS
+3bit_Comparator,sky130_fd_sc_hd,1,64,Refer to Step 3B,64,Refer to Step 3B,0,PASS
+Full_Adder,sky130_fd_sc_hd,2,7,Refer to Step 3B,7,Refer to Step 3B,0,PASS
+Half_Adder,sky130_fd_sc_hd,1,3,Refer to Step 3B,3,Refer to Step 3B,0,PASS
+2_to_1_MUX,sky130_fd_sc_hd,1,4,Refer to Step 3B,4,Refer to Step 3B,0,PASS

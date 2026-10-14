@@ -1,0 +1,115 @@
+{
+  "total_mutations": 78,
+  "killed_mutations": 78,
+  "survived_mutations": 0,
+  "mutation_kill_rate": 1.0,
+  "details_by_type": {
+    "M01_remove_valid_minterm": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M02_add_incorrect_minterm": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M03_replace_valid_minterm": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M04_remove_entire_output_mapping": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M05_inject_wrong_output_mapping": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M06_swap_output_mappings": {
+      "total": 4,
+      "killed": 4,
+      "survived": 0
+    },
+    "M07_duplicate_minterm": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "M08_corrupt_multiple_entries": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R01_routing_remove_pin": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R02_routing_add_incorrect_pin": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R03_routing_replace_pin": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R04_routing_clear_output": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R05_routing_swap_outputs": {
+      "total": 4,
+      "killed": 4,
+      "survived": 0
+    },
+    "R06_routing_duplicate_pin": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R07_routing_out_of_range_pin": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    },
+    "R08_routing_corrupt_multiple": {
+      "total": 5,
+      "killed": 5,
+      "survived": 0
+    }
+  },
+  "details_by_circuit": {
+    "Half_Adder": {
+      "total": 16,
+      "killed": 16,
+      "survived": 0
+    },
+    "Full_Adder": {
+      "total": 16,
+      "killed": 16,
+      "survived": 0
+    },
+    "2_to_1_MUX": {
+      "total": 14,
+      "killed": 14,
+      "survived": 0
+    },
+    "BCD_to_7Segment": {
+      "total": 16,
+      "killed": 16,
+      "survived": 0
+    },
+    "3bit_Comparator": {
+      "total": 16,
+      "killed": 16,
+      "survived": 0
+    }
+  }
+}

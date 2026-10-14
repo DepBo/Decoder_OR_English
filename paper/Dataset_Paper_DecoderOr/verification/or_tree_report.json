@@ -1,0 +1,124 @@
+{
+  "benchmark_fan_ins": [
+    {
+      "original_fan_in": 0,
+      "max_fan_in": 4,
+      "tree_depth": 0,
+      "number_of_internal_or_nodes": 0,
+      "number_of_leaves": 0,
+      "intermediate_wires_count": 0,
+      "assign_statements_count": 1,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 1,
+      "max_fan_in": 4,
+      "tree_depth": 0,
+      "number_of_internal_or_nodes": 0,
+      "number_of_leaves": 1,
+      "intermediate_wires_count": 0,
+      "assign_statements_count": 1,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 2,
+      "max_fan_in": 4,
+      "tree_depth": 1,
+      "number_of_internal_or_nodes": 1,
+      "number_of_leaves": 2,
+      "intermediate_wires_count": 0,
+      "assign_statements_count": 1,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 3,
+      "max_fan_in": 4,
+      "tree_depth": 1,
+      "number_of_internal_or_nodes": 1,
+      "number_of_leaves": 3,
+      "intermediate_wires_count": 0,
+      "assign_statements_count": 1,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 4,
+      "max_fan_in": 4,
+      "tree_depth": 1,
+      "number_of_internal_or_nodes": 1,
+      "number_of_leaves": 4,
+      "intermediate_wires_count": 0,
+      "assign_statements_count": 1,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 5,
+      "max_fan_in": 4,
+      "tree_depth": 2,
+      "number_of_internal_or_nodes": 3,
+      "number_of_leaves": 5,
+      "intermediate_wires_count": 2,
+      "assign_statements_count": 3,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 6,
+      "max_fan_in": 4,
+      "tree_depth": 2,
+      "number_of_internal_or_nodes": 3,
+      "number_of_leaves": 6,
+      "intermediate_wires_count": 2,
+      "assign_statements_count": 3,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 8,
+      "max_fan_in": 4,
+      "tree_depth": 2,
+      "number_of_internal_or_nodes": 3,
+      "number_of_leaves": 8,
+      "intermediate_wires_count": 2,
+      "assign_statements_count": 3,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 9,
+      "max_fan_in": 4,
+      "tree_depth": 2,
+      "number_of_internal_or_nodes": 4,
+      "number_of_leaves": 9,
+      "intermediate_wires_count": 3,
+      "assign_statements_count": 4,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 16,
+      "max_fan_in": 4,
+      "tree_depth": 2,
+      "number_of_internal_or_nodes": 5,
+      "number_of_leaves": 16,
+      "intermediate_wires_count": 4,
+      "assign_statements_count": 5,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 32,
+      "max_fan_in": 4,
+      "tree_depth": 3,
+      "number_of_internal_or_nodes": 11,
+      "number_of_leaves": 32,
+      "intermediate_wires_count": 10,
+      "assign_statements_count": 11,
+      "functional_equivalence_verified": true
+    },
+    {
+      "original_fan_in": 64,
+      "max_fan_in": 4,
+      "tree_depth": 3,
+      "number_of_internal_or_nodes": 21,
+      "number_of_leaves": 64,
+      "intermediate_wires_count": 20,
+      "assign_statements_count": 21,
+      "functional_equivalence_verified": true
+    }
+  ]
+}

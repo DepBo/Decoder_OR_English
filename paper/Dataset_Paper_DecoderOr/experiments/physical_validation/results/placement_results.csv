@@ -1,0 +1,8 @@
+design,target_density,site,core_utilization,placed_cells,placed_buffers,status,tool_notes
+fanout_test_1,0.50,unithd,40%,2,0,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_2,0.50,unithd,40%,3,0,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_4,0.50,unithd,40%,5,0,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_8,0.50,unithd,40%,9,0,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_16,0.50,unithd,40%,19,2,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_32,0.50,unithd,40%,39,6,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.
+fanout_test_64,0.50,unithd,40%,79,14,ENVIRONMENT_LIMITED,OpenROAD/OpenSTA binary not installed in environment; Tcl flow scripts generated in scripts/ for external execution.

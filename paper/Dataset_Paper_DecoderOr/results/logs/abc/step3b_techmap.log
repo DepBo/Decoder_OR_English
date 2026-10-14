@@ -1,0 +1,231 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe experiments/technology_mapping/run_all.py --library both --skip-large
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 122.15s
+
+--- STDOUT ---
+================================================================================
+STEP 3B RESEARCH VALIDATION: TECHNOLOGY MAPPING, TIMING & DECOMPOSITION EVIDENCE
+Target Directory : D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results
+Library Selection: both
+Skip Large       : True
+================================================================================
+
+>>> PHASE 1: BENCHMARK TECHNOLOGY MAPPING (Yosys + ABC)
+=== Starting Technology Mapping with Library: sky130_fd_sc_hd__tt_025C_1v80 ===
+
+Design: Half_Adder (Top: Half_Adder_Decoder_OR)
+  Status: PASS, Runtime: 1.46s
+  Pre-map cells: 2, Post-map cells: 2, Area: 15.0144 um^2
+  Cells breakdown: {'sky130_fd_sc_hd__and2_0': 1, 'sky130_fd_sc_hd__xor2_1': 1}
+
+Design: Full_Adder (Top: Full_Adder_Decoder_OR)
+  Status: PASS, Runtime: 1.50s
+  Pre-map cells: 7, Post-map cells: 2, Area: 33.7824 um^2
+  Cells breakdown: {'sky130_fd_sc_hd__maj3_1': 1, 'sky130_fd_sc_hd__xor3_1': 1}
+
+Design: 2_to_1_MUX (Top: _2_to_1_MUX_Decoder_OR)
+  Status: PASS, Runtime: 1.42s
+  Pre-map cells: 4, Post-map cells: 1, Area: 11.2608 um^2
+  Cells breakdown: {'sky130_fd_sc_hd__mux2_1': 1}
+
+Design: BCD_to_7Segment (Top: BCD_to_7Segment_Decoder_OR)
+  Status: PASS, Runtime: 1.42s
+  Pre-map cells: 34, Post-map cells: 19, Area: 116.3616 um^2
+  Cells breakdown: {'sky130_fd_sc_hd__a21o_1': 1, 'sky130_fd_sc_hd__a21oi_1': 1, 'sky130_fd_sc_hd__a22oi_1': 1, 'sky130_fd_sc_hd__a311oi_1': 1, 'sky130_fd_sc_hd__a31o_1': 1, 'sky130_fd_sc_hd__clkinv_1': 1, 'sky130_fd_sc_hd__lpflow_isobufsrc_1': 2, 'sky130_fd_sc_hd__mux2_1': 1, 'sky130_fd_sc_hd__nand2_1': 3, 'sky130_fd_sc_hd__nand2b_1': 1, 'sky130_fd_sc_hd__nor2_1': 3, 'sky130_fd_sc_hd__o31ai_1': 1, 'sky130_fd_sc_hd__o41ai_1': 1, 'sky130_fd_sc_hd__or3_1': 1}
+
+Design: 3bit_Comparator (Top: _3bit_Comparator_Decoder_OR)
+  Status: PASS, Runtime: 1.46s
+  Pre-map cells: 62, Post-map cells: 44, Area: 260.2496 um^2
+  Cells breakdown: {'sky130_fd_sc_hd__a211oi_1': 1, 'sky130_fd_sc_hd__a21oi_1': 3, 'sky130_fd_sc_hd__a221o_1': 1, 'sky130_fd_sc_hd__a22oi_1': 1, 'sky130_fd_sc_hd__a31oi_1': 4, 'sky130_fd_sc_hd__a41oi_1': 1, 'sky130_fd_sc_hd__and3_1': 1, 'sky130_fd_sc_hd__clkinv_1': 2, 'sky130_fd_sc_hd__mux2i_1': 1, 'sky130_fd_sc_hd__nand2_1': 7, 'sky130_fd_sc_hd__nand2b_1': 1, 'sky130_fd_sc_hd__nand3_1': 1, 'sky130_fd_sc_hd__nand3b_1': 2, 'sky130_fd_sc_hd__nand4_1': 1, 'sky130_fd_sc_hd__nor2_1': 5, 'sky130_fd_sc_hd__nor3_1': 1, 'sky130_fd_sc_hd__nor3b_1': 2, 'sky130_fd_sc_hd__o21ai_0': 1, 'sky130_fd_sc_hd__o22a_1': 2, 'sky130_fd_sc_hd__o22ai_1': 1, 'sky130_fd_sc_hd__o32ai_1': 1, 'sky130_fd_sc_hd__or3_1': 3, 'sky130_fd_sc_hd__or3b_1': 1}
+
+Design: 8bit_Comparator (Top: _8bit_Comparator_Decoder_OR)
+  [SKIPPED] Large design (--skip-large enabled to protect host RAM/execution)
+=== Starting Technology Mapping with Library: NangateOpenCellLibrary_typical ===
+
+Design: Half_Adder (Top: Half_Adder_Decoder_OR)
+  Status: PASS, Runtime: 0.84s
+  Pre-map cells: 2, Post-map cells: 2, Area: 2.66 um^2
+  Cells breakdown: {'AND2_X1': 1, 'XOR2_X1': 1}
+
+Design: Full_Adder (Top: Full_Adder_Decoder_OR)
+  Status: PASS, Runtime: 0.88s
+  Pre-map cells: 7, Post-map cells: 5, Area: 5.586 um^2
+  Cells breakdown: {'INV_X1': 1, 'NAND2_X1': 1, 'OAI21_X1': 1, 'XNOR2_X1': 2}
+
+Design: 2_to_1_MUX (Top: _2_to_1_MUX_Decoder_OR)
+  Status: PASS, Runtime: 0.81s
+  Pre-map cells: 4, Post-map cells: 1, Area: 1.862 um^2
+  Cells breakdown: {'MUX2_X1': 1}
+
+Design: BCD_to_7Segment (Top: BCD_to_7Segment_Decoder_OR)
+  Status: PASS, Runtime: 0.88s
+  Pre-map cells: 34, Post-map cells: 24, Area: 23.674 um^2
+  Cells breakdown: {'AOI211_X1': 2, 'AOI21_X1': 3, 'INV_X1': 4, 'NAND2_X1': 5, 'NAND4_X1': 2, 'NOR2_X1': 2, 'NOR3_X1': 1, 'OAI21_X1': 1, 'OAI221_X1': 1, 'OAI22_X1': 2, 'OR2_X1': 1}
+
+Design: 3bit_Comparator (Top: _3bit_Comparator_Decoder_OR)
+  Status: PASS, Runtime: 0.85s
+  Pre-map cells: 62, Post-map cells: 45, Area: 47.614 um^2
+  Cells breakdown: {'AND2_X1': 1, 'AND3_X1': 1, 'AOI211_X1': 2, 'AOI21_X1': 5, 'AOI22_X1': 3, 'INV_X1': 6, 'NAND2_X1': 3, 'NAND3_X1': 7, 'NAND4_X1': 1, 'NOR2_X1': 3, 'NOR3_X1': 3, 'NOR4_X1': 1, 'OAI211_X1': 1, 'OAI21_X1': 5, 'OAI221_X1': 2, 'OAI222_X1': 1}
+
+Design: 8bit_Comparator (Top: _8bit_Comparator_Decoder_OR)
+  [SKIPPED] Large design (--skip-large enabled to protect host RAM/execution)
+
+Wrote summary JSON: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\technology_mapping_summary.json
+Wrote results CSV: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\technology_mapping_results.csv
+
+>>> PHASE 2: STATIC TIMING ANALYSIS (ABC stime -p)
+=== Running Static Timing Analysis on 10 netlists ===
+Timing analysis: 2_to_1_MUX [NangateOpenCellLibrary_typical]...
+  Delay: 49.25 ps, Path stages: 1, Topo depth: 0
+  Path: pi2 -> po0, Cells: ['MUX2_X1']
+Timing analysis: 2_to_1_MUX [sky130_fd_sc_hd__tt_025C_1v80]...
+  Delay: 260.32 ps, Path stages: 1, Topo depth: 0
+  Path: pi2 -> po0, Cells: ['sky130_fd_sc_hd__mux2_1']
+Timing analysis: 3bit_Comparator [NangateOpenCellLibrary_typical]...
+  Delay: 201.32 ps, Path stages: 4, Topo depth: 0
+  Path: pi4 -> po1, Cells: ['NOR2_X1', 'OAI221_X1', 'AOI211_X1', 'OAI221_X1']
+Timing analysis: 3bit_Comparator [sky130_fd_sc_hd__tt_025C_1v80]...
+  Delay: 869.58 ps, Path stages: 5, Topo depth: 0
+  Path: pi4 -> po2, Cells: ['sky130_fd_sc_hd__or3b_1', 'sky130_fd_sc_hd__o32ai_1', 'sky130_fd_sc_hd__a21oi_1', 'sky130_fd_sc_hd__a41oi_1', 'sky130_fd_sc_hd__or3_1']
+Timing analysis: BCD_to_7Segment [NangateOpenCellLibrary_typical]...
+  Delay: 113.42 ps, Path stages: 3, Topo depth: 0
+  Path: pi3 -> po0, Cells: ['INV_X1', 'AOI211_X1', 'OAI221_X1']
+Timing analysis: BCD_to_7Segment [sky130_fd_sc_hd__tt_025C_1v80]...
+  Delay: 544.81 ps, Path stages: 3, Topo depth: 0
+  Path: pi2 -> po3, Cells: ['sky130_fd_sc_hd__mux2_1', 'sky130_fd_sc_hd__a21oi_1', 'sky130_fd_sc_hd__a31o_1']
+Timing analysis: Full_Adder [NangateOpenCellLibrary_typical]...
+  Delay: 87.85 ps, Path stages: 2, Topo depth: 0
+  Path: pi2 -> po1, Cells: ['XNOR2_X1', 'XNOR2_X1']
+Timing analysis: Full_Adder [sky130_fd_sc_hd__tt_025C_1v80]...
+  Delay: 331.98 ps, Path stages: 1, Topo depth: 0
+  Path: pi0 -> po1, Cells: ['sky130_fd_sc_hd__xor3_1']
+Timing analysis: Half_Adder [NangateOpenCellLibrary_typical]...
+  Delay: 47.72 ps, Path stages: 1, Topo depth: 0
+  Path: pi0 -> po1, Cells: ['XOR2_X1']
+Timing analysis: Half_Adder [sky130_fd_sc_hd__tt_025C_1v80]...
+  Delay: 119.34 ps, Path stages: 1, Topo depth: 0
+  Path: pi1 -> po1, Cells: ['sky130_fd_sc_hd__xor2_1']
+
+Wrote STA results CSV: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\sta_results.csv
+
+>>> PHASE 3: OR FAN-IN SCALING EXPERIMENT (k in [2, 4, 8, 16, 32, 64])
+=== Starting OR Fan-In Experiment (Inputs: 64, Fan-ins: [2, 4, 8, 16, 32, 64]) ===
+k= 2 [sky130_fd_sc_hd__tt_025C_1v80]: depth=6, nodes=63 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k= 2 [NangateOpenCellLibrary_typical]: depth=6, nodes=63 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+k= 4 [sky130_fd_sc_hd__tt_025C_1v80]: depth=3, nodes=21 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k= 4 [NangateOpenCellLibrary_typical]: depth=3, nodes=21 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+k= 8 [sky130_fd_sc_hd__tt_025C_1v80]: depth=2, nodes=9 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k= 8 [NangateOpenCellLibrary_typical]: depth=2, nodes=9 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+k=16 [sky130_fd_sc_hd__tt_025C_1v80]: depth=2, nodes=5 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k=16 [NangateOpenCellLibrary_typical]: depth=2, nodes=5 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+k=32 [sky130_fd_sc_hd__tt_025C_1v80]: depth=2, nodes=3 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k=32 [NangateOpenCellLibrary_typical]: depth=2, nodes=3 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+k=64 [sky130_fd_sc_hd__tt_025C_1v80]: depth=1, nodes=1 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+k=64 [NangateOpenCellLibrary_typical]: depth=1, nodes=1 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+
+Wrote fan-in experiment CSV: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\fan_in_results.csv
+
+>>> PHASE 4: OR-TREE DEPTH SCALING & 8-BIT COMPARATOR AUDIT
+  Comparator Audit Match: True (Total OR nodes: 21931)
+N= 64 [Balanced_Tree_k4] [sky130_fd_sc_hd__tt_025C_1v80]: log_depth=3, log_gates=21 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+N= 64 [Balanced_Tree_k4] [NangateOpenCellLibrary_typical]: log_depth=3, log_gates=21 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+N= 64 [Unbalanced_Linear_Chain] [sky130_fd_sc_hd__tt_025C_1v80]: log_depth=63, log_gates=63 -> mapped_cells=23, area=136.38 um^2, delay=492.7 ps (stages=4)
+N= 64 [Unbalanced_Linear_Chain] [NangateOpenCellLibrary_typical]: log_depth=63, log_gates=63 -> mapped_cells=22, area=28.99 um^2, delay=232.3 ps (stages=4)
+N=256 [Balanced_Tree_k4] [sky130_fd_sc_hd__tt_025C_1v80]: log_depth=4, log_gates=85 -> mapped_cells=86, area=536.76 um^2, delay=1014.4 ps (stages=5)
+N=256 [Balanced_Tree_k4] [NangateOpenCellLibrary_typical]: log_depth=4, log_gates=85 -> mapped_cells=86, area=113.85 um^2, delay=238.0 ps (stages=5)
+N=256 [Unbalanced_Linear_Chain] [sky130_fd_sc_hd__tt_025C_1v80]: log_depth=255, log_gates=255 -> mapped_cells=86, area=536.76 um^2, delay=1014.4 ps (stages=5)
+N=256 [Unbalanced_Linear_Chain] [NangateOpenCellLibrary_typical]: log_depth=255, log_gates=255 -> mapped_cells=86, area=113.85 um^2, delay=238.0 ps (stages=5)
+
+>>> PHASE 5: BCD TO 7-SEGMENT DON'T-CARE EXPERIMENT
+=== Starting Part G: BCD to 7-Segment Don't-Care Experiment ===
+
+Evaluating: Impl_A_Decoder_OR_Unrouted_DC
+  Valid digits (0-9) pass: True
+  Don't care output vectors (10-15): {10: '0000000', 11: '0000000', 12: '0000000', 13: '0000000', 14: '0000000', 15: '0000000'}
+  [sky130_fd_sc_hd__tt_025C_1v80]: mapped_cells=19, area=116.36 um^2, delay=544.8 ps (stages=3)
+  [NangateOpenCellLibrary_typical]: mapped_cells=24, area=23.67 um^2, delay=113.4 ps (stages=3)
+
+Evaluating: Impl_B_Conventional_DC_Exploited
+  Valid digits (0-9) pass: True
+  Don't care output vectors (10-15): {10: 'xxxxxxx', 11: 'xxxxxxx', 12: 'xxxxxxx', 13: 'xxxxxxx', 14: 'xxxxxxx', 15: 'xxxxxxx'}
+  [sky130_fd_sc_hd__tt_025C_1v80]: mapped_cells=21, area=116.36 um^2, delay=494.4 ps (stages=3)
+  [NangateOpenCellLibrary_typical]: mapped_cells=22, area=25.00 um^2, delay=144.8 ps (stages=3)
+
+Evaluating: Impl_C_Conventional_Zero_DC
+  Valid digits (0-9) pass: True
+  Don't care output vectors (10-15): {10: '0000000', 11: '0000000', 12: '0000000', 13: '0000000', 14: '0000000', 15: '0000000'}
+  [sky130_fd_sc_hd__tt_025C_1v80]: mapped_cells=21, area=116.36 um^2, delay=494.4 ps (stages=3)
+  [NangateOpenCellLibrary_typical]: mapped_cells=22, area=25.00 um^2, delay=144.8 ps (stages=3)
+
+Wrote BCD don't-care CSV: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\bcd_dont_care_results.csv
+
+>>> PHASE 6: CONVENTIONAL RTL BASELINE COMPARISON
+=== Starting Part H: Conventional Baseline Comparison ===
+
+--- Benchmark: Half_Adder [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=PASS, Cells=2, Area=15.0144, Delay=119.34
+  Conventional : Status=PASS, Cells=2, Area=15.0144, Delay=119.34
+
+--- Benchmark: Half_Adder [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=PASS, Cells=2, Area=2.66, Delay=47.72
+  Conventional : Status=PASS, Cells=2, Area=2.66, Delay=47.72
+
+--- Benchmark: Full_Adder [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=PASS, Cells=2, Area=33.7824, Delay=331.98
+  Conventional : Status=PASS, Cells=2, Area=33.7824, Delay=331.98
+
+--- Benchmark: Full_Adder [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=PASS, Cells=5, Area=5.586, Delay=87.85
+  Conventional : Status=PASS, Cells=6, Area=6.384, Delay=89.65
+
+--- Benchmark: 2_to_1_MUX [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=PASS, Cells=1, Area=11.2608, Delay=260.32
+  Conventional : Status=PASS, Cells=1, Area=11.2608, Delay=260.32
+
+--- Benchmark: 2_to_1_MUX [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=PASS, Cells=1, Area=1.862, Delay=49.25
+  Conventional : Status=PASS, Cells=1, Area=1.862, Delay=49.25
+
+--- Benchmark: BCD_to_7Segment [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=PASS, Cells=19, Area=116.3616, Delay=544.81
+  Conventional : Status=PASS, Cells=21, Area=116.3616, Delay=494.41
+
+--- Benchmark: BCD_to_7Segment [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=PASS, Cells=24, Area=23.674, Delay=113.42
+  Conventional : Status=PASS, Cells=22, Area=25.004, Delay=144.8
+
+--- Benchmark: 3bit_Comparator [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=PASS, Cells=44, Area=260.2496, Delay=869.58
+  Conventional : Status=PASS, Cells=10, Area=61.3088, Delay=577.5
+
+--- Benchmark: 3bit_Comparator [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=PASS, Cells=45, Area=47.614, Delay=201.32
+  Conventional : Status=PASS, Cells=13, Area=11.704, Delay=96.72
+
+--- Benchmark: 8bit_Comparator [sky130_fd_sc_hd__tt_025C_1v80] ---
+  Decoder+OR   : Status=SKIPPED_RESOURCE_PROTECTION, Cells=SKIPPED, Area=SKIPPED, Delay=SKIPPED
+  Conventional : Status=PASS, Cells=29, Area=170.1632, Delay=675.68
+
+--- Benchmark: 8bit_Comparator [NangateOpenCellLibrary_typical] ---
+  Decoder+OR   : Status=SKIPPED_RESOURCE_PROTECTION, Cells=SKIPPED, Area=SKIPPED, Delay=SKIPPED
+  Conventional : Status=PASS, Cells=33, Area=30.856, Delay=227.35
+
+Wrote conventional baseline CSV: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\conventional_baseline_results.csv
+
+================================================================================
+STEP 3B RESEARCH VALIDATION COMPLETED IN 121.89s
+Generated Reports:
+  1. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\technology_mapping_results.csv
+  2. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\technology_mapping_summary.json
+  3. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\sta_results.csv
+  4. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\fan_in_results.csv
+  5. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\or_depth_scaling_results.csv
+  6. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\comparator_audit.json
+  7. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\bcd_dont_care_results.csv
+  8. D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\technology_mapping\results\conventional_baseline_results.csv
+================================================================================
+
+
+--- STDERR ---
+

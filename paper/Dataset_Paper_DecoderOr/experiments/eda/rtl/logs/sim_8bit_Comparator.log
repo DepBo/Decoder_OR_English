@@ -1,0 +1,3 @@
+SIM_RESULT: name=8bit_Comparator vectors=65536 mismatches=0 first_mismatch=-1
+/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/sim/tb_8bit_Comparator.v:46: $finish called at 65536000 (1ps)
+

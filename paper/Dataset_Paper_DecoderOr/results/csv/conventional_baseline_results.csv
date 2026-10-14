@@ -1,0 +1,13 @@
+benchmark,library,dec_status,dec_pre_cells,dec_mapped_cells,dec_area_um2,dec_delay_ps,dec_stages,conv_status,conv_pre_cells,conv_mapped_cells,conv_area_um2,conv_delay_ps,conv_stages
+Half_Adder,sky130_fd_sc_hd__tt_025C_1v80,PASS,2,2,15.0144,119.34,1,PASS,2,2,15.0144,119.34,1
+Half_Adder,NangateOpenCellLibrary_typical,PASS,2,2,2.6600,47.72,1,PASS,2,2,2.6600,47.72,1
+Full_Adder,sky130_fd_sc_hd__tt_025C_1v80,PASS,7,2,33.7824,331.98,1,PASS,2,2,33.7824,331.98,1
+Full_Adder,NangateOpenCellLibrary_typical,PASS,7,5,5.5860,87.85,2,PASS,2,6,6.3840,89.65,2
+2_to_1_MUX,sky130_fd_sc_hd__tt_025C_1v80,PASS,4,1,11.2608,260.32,1,PASS,1,1,11.2608,260.32,1
+2_to_1_MUX,NangateOpenCellLibrary_typical,PASS,4,1,1.8620,49.25,1,PASS,1,1,1.8620,49.25,1
+BCD_to_7Segment,sky130_fd_sc_hd__tt_025C_1v80,PASS,34,19,116.3616,544.81,3,PASS,11,21,116.3616,494.41,3
+BCD_to_7Segment,NangateOpenCellLibrary_typical,PASS,34,24,23.6740,113.42,3,PASS,11,22,25.0040,144.80,3
+3bit_Comparator,sky130_fd_sc_hd__tt_025C_1v80,PASS,62,44,260.2496,869.58,5,PASS,3,10,61.3088,577.50,4
+3bit_Comparator,NangateOpenCellLibrary_typical,PASS,62,45,47.6140,201.32,4,PASS,3,13,11.7040,96.72,2
+8bit_Comparator,sky130_fd_sc_hd__tt_025C_1v80,SKIPPED_RESOURCE_PROTECTION,65534,SKIPPED,SKIPPED,SKIPPED,SKIPPED,PASS,3,29,170.1632,675.68,5
+8bit_Comparator,NangateOpenCellLibrary_typical,SKIPPED_RESOURCE_PROTECTION,65534,SKIPPED,SKIPPED,SKIPPED,SKIPPED,PASS,3,33,30.8560,227.35,6

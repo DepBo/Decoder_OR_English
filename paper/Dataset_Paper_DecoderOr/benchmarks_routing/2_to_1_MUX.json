@@ -1,0 +1,22 @@
+{
+  "system": "2_to_1_MUX_Decoder_OR",
+  "architecture": {
+    "core_decoder": "3-to-8_Active_High",
+    "inputs": [
+      "S",
+      "I0",
+      "I1"
+    ],
+    "outputs": [
+      "Y"
+    ]
+  },
+  "automated_routing_matrix": {
+    "output_OR_Y": [
+      "Y2",
+      "Y3",
+      "Y5",
+      "Y7"
+    ]
+  }
+}

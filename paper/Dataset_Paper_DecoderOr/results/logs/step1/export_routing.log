@@ -1,0 +1,15 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe scripts/export_benchmark_routing.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 0.17s
+
+--- STDOUT ---
+[OK] Exported routing JSON: benchmarks_routing\Half_Adder.json
+[OK] Exported routing JSON: benchmarks_routing\Full_Adder.json
+[OK] Exported routing JSON: benchmarks_routing\2_to_1_MUX.json
+[OK] Exported routing JSON: benchmarks_routing\BCD_to_7Segment.json
+[OK] Exported routing JSON: benchmarks_routing\3bit_Comparator.json
+
+
+--- STDERR ---
+

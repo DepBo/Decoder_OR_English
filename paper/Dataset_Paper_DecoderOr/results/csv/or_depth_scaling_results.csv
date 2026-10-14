@@ -1,0 +1,9 @@
+num_inputs,topology,library,logical_depth,logical_gates,pre_cells,mapped_cells,mapped_area_um2,delay_ps,critical_path_stages,critical_path_cells
+64,Balanced_Tree_k4,sky130_fd_sc_hd__tt_025C_1v80,3,21,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+64,Balanced_Tree_k4,NangateOpenCellLibrary_typical,3,21,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+64,Unbalanced_Linear_Chain,sky130_fd_sc_hd__tt_025C_1v80,63,63,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+64,Unbalanced_Linear_Chain,NangateOpenCellLibrary_typical,63,63,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+256,Balanced_Tree_k4,sky130_fd_sc_hd__tt_025C_1v80,4,85,255,86,536.7648,1014.42,5,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__or4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand3_1"
+256,Balanced_Tree_k4,NangateOpenCellLibrary_typical,4,85,255,86,113.8480,237.97,5,"NOR4_X1; NAND4_X1; NOR4_X1; AND2_X1; NAND3_X1"
+256,Unbalanced_Linear_Chain,sky130_fd_sc_hd__tt_025C_1v80,255,255,255,86,536.7648,1014.42,5,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__or4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand3_1"
+256,Unbalanced_Linear_Chain,NangateOpenCellLibrary_typical,255,255,255,86,113.8480,237.97,5,"NOR4_X1; NAND4_X1; NOR4_X1; AND2_X1; NAND3_X1"

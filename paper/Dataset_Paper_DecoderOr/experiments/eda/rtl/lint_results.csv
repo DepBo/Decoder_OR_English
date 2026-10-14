@@ -1,0 +1,7 @@
+design,exit_code,total_errors,total_warnings,unused_signals_warnings,decl_filename_warnings,width_warnings,undriven_nets,multidriven_nets,lint_time_sec,status,log_file
+Half_Adder,0,0,2,1,1,0,0,0,0.2613,PASS,experiments/eda/rtl/logs/lint_Half_Adder.log
+Full_Adder,0,0,2,1,1,0,0,0,0.2542,PASS,experiments/eda/rtl/logs/lint_Full_Adder.log
+2_to_1_MUX,0,0,2,1,1,0,0,0,0.2591,PASS,experiments/eda/rtl/logs/lint_2_to_1_MUX.log
+BCD_to_7Segment,0,0,2,1,1,0,0,0,0.2743,PASS,experiments/eda/rtl/logs/lint_BCD_to_7Segment.log
+3bit_Comparator,0,0,1,0,1,0,0,0,0.2492,PASS,experiments/eda/rtl/logs/lint_3bit_Comparator.log
+8bit_Comparator,0,0,0,0,0,0,0,0,0.0,PASS,experiments/eda/rtl/logs/lint_8bit_Comparator.log

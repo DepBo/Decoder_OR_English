@@ -1,0 +1,3 @@
+SIM_RESULT: name=2_to_1_MUX vectors=8 mismatches=0 first_mismatch=-1 dont_care=0
+/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/sim/tb_2_to_1_MUX.v:133: $finish called at 80000 (1ps)
+

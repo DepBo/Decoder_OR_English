@@ -1,0 +1,70 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe scripts/run_step3a_complete.py --skip-large
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 24.84s
+
+--- STDOUT ---
+
+======================================================================
+STEP 3A.0: COMPILING SYNTHESIZABLE VERILOG RTL (UP-TO-DATE COMPILER)
+======================================================================
+  Compiled Half_Adder        : 765 bytes
+  Compiled Full_Adder        : 827 bytes
+  Compiled 2_to_1_MUX        : 718 bytes
+  Compiled BCD_to_7Segment   : 2,242 bytes
+  Compiled 3bit_Comparator   : 2,928 bytes
+  Compiling 8bit_Comparator RTL...
+  Compiled 8bit_Comparator   : 2,332,092 bytes
+
+======================================================================
+STEP 3A.1: CHECK GENERATED DECODER WIDTH & EXPRESSION SIZING
+======================================================================
+  [4to16] 4-to-16: Sized 16'b1 << in errors=0 (PASS: 100% one-hot)
+  [6to64] 6-to-64: Sized 64'b1 << in errors=0 (PASS: 100% one-hot)
+  [16to65536] 16-to-65536: Sized 65536'b1 << in errors=0 (PASS: 100% one-hot)
+
+======================================================================
+STEP 3A.2 & 3A.4: RTL SIMULATION VS INDEPENDENT GROUND TRUTH
+======================================================================
+  Half_Adder        : 4 vectors, mismatches=0, time=0.379s -> PASS
+  Full_Adder        : 8 vectors, mismatches=0, time=0.395s -> PASS
+  2_to_1_MUX        : 8 vectors, mismatches=0, time=0.359s -> PASS
+  BCD_to_7Segment   : 16 vectors, mismatches=0, time=0.403s -> PASS
+  3bit_Comparator   : 64 vectors, mismatches=0, time=0.432s -> PASS
+
+  Running exhaustive 65,536-vector simulation on 8-bit Comparator...
+  8bit_Comparator   : SKIPPED_EXHAUSTIVE (Resource protection / Quick mode)
+
+  Saved simulation results: experiments\eda\rtl\simulation_results.csv
+
+======================================================================
+STEP 3A.3: VERILATOR LINT ANALYSIS (-Wall)
+======================================================================
+  Half_Adder        : status=PASS (errors=0, unused_sig=1, width_warn=0, time=0.261s)
+  Full_Adder        : status=PASS (errors=0, unused_sig=1, width_warn=0, time=0.254s)
+  2_to_1_MUX        : status=PASS (errors=0, unused_sig=1, width_warn=0, time=0.259s)
+  BCD_to_7Segment   : status=PASS (errors=0, unused_sig=1, width_warn=0, time=0.274s)
+  3bit_Comparator   : status=PASS (errors=0, unused_sig=0, width_warn=0, time=0.249s)
+  8bit_Comparator   : status=PASS (Skipped heavy lint in quick mode)
+
+  Saved lint results: experiments\eda\rtl\lint_results.csv
+
+======================================================================
+STEP 3A.5: YOSYS SYNTHESIS SANITY CHECK & ELABORATION STATS
+======================================================================
+  Half_Adder        : status=PASS, cells=2, wires=5, time=0.200s
+  Full_Adder        : status=PASS, cells=7, wires=10, time=0.184s
+  2_to_1_MUX        : status=PASS, cells=4, wires=7, time=0.186s
+  BCD_to_7Segment   : status=PASS, cells=34, wires=41, time=0.182s
+  3bit_Comparator   : status=PASS, cells=62, wires=68, time=0.181s
+  8bit_Comparator   : status=PASS, cells=65534, wires=65550, time=18.445s
+
+  Saved synthesis sanity results: experiments\eda\synthesis\synthesis_sanity_results.csv
+
+======================================================================
+STEP 3A EXECUTION COMPLETE in 24.62 seconds.
+======================================================================
+
+
+--- STDERR ---
+

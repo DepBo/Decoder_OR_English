@@ -1,0 +1,53 @@
+# Python environments and caches
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+*.py[cod]
+
+# Local configuration and generated outputs
+.env
+.env.*
+!.env.example
+/tmp/
+/generated/
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# LaTeX build intermediates (keep main.tex and required class/style files)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+
+# Private correspondence, working notes, and superseded submission PDF
+/Gmail - *.pdf
+/note.md
+/Realizing_Arbitrary_Logic_Functions_Using_Decoders_and_OR_Gates_for_Automated_Logic_Synthesis.pdf
+
+# Unused Springer template examples and documentation
+/readme.txt
+/history.txt
+/samplepaper.tex
+/fig1.eps
+/llncsdoc.pdf
+
+# Rebuildable large-scale or EDA intermediates; keep scripts and result summaries
+/paper/Dataset_Paper_DecoderOr/experiments/scalability/generated_json/
+/paper/Dataset_Paper_DecoderOr/experiments/scalability/generated_verilog/
+/paper/Dataset_Paper_DecoderOr/experiments/iwls/generated_json/
+/paper/Dataset_Paper_DecoderOr/experiments/iwls/generated_verilog/
+/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/generated/
+/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/sim/
+/paper/Dataset_Paper_DecoderOr/experiments/eda/synthesis/netlists/
+/paper/Dataset_Paper_DecoderOr/results/runs/
+*.vvp
+
+# Third-party standard-cell libraries: fetch using download_libraries.py
+/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/*.lib

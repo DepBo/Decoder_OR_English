@@ -1,0 +1,11 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe scripts/generate_or_tree_report.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 0.47s
+
+--- STDOUT ---
+[OK] Saved OR-tree decomposition report: verification\or_tree_report.json
+
+
+--- STDERR ---
+

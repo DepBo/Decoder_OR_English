@@ -1,0 +1,683 @@
+{
+  "BCD_to_7Segment": {
+    "total_minterms_used": 10,
+    "max_fanout": 7,
+    "top_decoder_outputs": [
+      "Y[8]"
+    ],
+    "minterm_details": {
+      "Y[0]": {
+        "fanout": 6,
+        "drives_outputs": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ]
+      },
+      "Y[1]": {
+        "fanout": 2,
+        "drives_outputs": [
+          "b",
+          "c"
+        ]
+      },
+      "Y[2]": {
+        "fanout": 5,
+        "drives_outputs": [
+          "a",
+          "b",
+          "d",
+          "e",
+          "g"
+        ]
+      },
+      "Y[3]": {
+        "fanout": 5,
+        "drives_outputs": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "g"
+        ]
+      },
+      "Y[4]": {
+        "fanout": 4,
+        "drives_outputs": [
+          "b",
+          "c",
+          "f",
+          "g"
+        ]
+      },
+      "Y[5]": {
+        "fanout": 5,
+        "drives_outputs": [
+          "a",
+          "c",
+          "d",
+          "f",
+          "g"
+        ]
+      },
+      "Y[6]": {
+        "fanout": 6,
+        "drives_outputs": [
+          "a",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ]
+      },
+      "Y[7]": {
+        "fanout": 3,
+        "drives_outputs": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      "Y[8]": {
+        "fanout": 7,
+        "drives_outputs": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g"
+        ]
+      },
+      "Y[9]": {
+        "fanout": 6,
+        "drives_outputs": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "f",
+          "g"
+        ]
+      }
+    }
+  },
+  "3bit_Comparator": {
+    "total_minterms_used": 64,
+    "max_fanout": 1,
+    "top_decoder_outputs": [
+      "Y[8]",
+      "Y[16]",
+      "Y[17]",
+      "Y[24]",
+      "Y[25]",
+      "Y[26]",
+      "Y[32]",
+      "Y[33]",
+      "Y[34]",
+      "Y[35]",
+      "Y[40]",
+      "Y[41]",
+      "Y[42]",
+      "Y[43]",
+      "Y[44]",
+      "Y[48]",
+      "Y[49]",
+      "Y[50]",
+      "Y[51]",
+      "Y[52]",
+      "Y[53]",
+      "Y[56]",
+      "Y[57]",
+      "Y[58]",
+      "Y[59]",
+      "Y[60]",
+      "Y[61]",
+      "Y[62]",
+      "Y[0]",
+      "Y[36]",
+      "Y[9]",
+      "Y[45]",
+      "Y[18]",
+      "Y[54]",
+      "Y[27]",
+      "Y[63]",
+      "Y[1]",
+      "Y[2]",
+      "Y[3]",
+      "Y[4]",
+      "Y[5]",
+      "Y[6]",
+      "Y[7]",
+      "Y[10]",
+      "Y[11]",
+      "Y[12]",
+      "Y[13]",
+      "Y[14]",
+      "Y[15]",
+      "Y[19]",
+      "Y[20]",
+      "Y[21]",
+      "Y[22]",
+      "Y[23]",
+      "Y[28]",
+      "Y[29]",
+      "Y[30]",
+      "Y[31]",
+      "Y[37]",
+      "Y[38]",
+      "Y[39]",
+      "Y[46]",
+      "Y[47]",
+      "Y[55]"
+    ],
+    "minterm_details": {
+      "Y[0]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[1]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[2]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[3]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[4]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[5]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[6]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[7]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[8]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[9]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[10]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[11]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[12]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[13]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[14]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[15]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[16]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[17]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[18]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[19]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[20]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[21]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[22]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[23]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[24]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[25]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[26]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[27]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[28]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[29]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[30]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[31]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[32]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[33]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[34]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[35]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[36]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[37]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[38]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[39]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[40]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[41]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[42]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[43]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[44]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[45]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[46]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[47]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[48]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[49]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[50]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[51]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[52]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[53]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[54]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      },
+      "Y[55]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_lt_B"
+        ]
+      },
+      "Y[56]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[57]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[58]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[59]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[60]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[61]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[62]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_gt_B"
+        ]
+      },
+      "Y[63]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "A_eq_B"
+        ]
+      }
+    }
+  },
+  "Full_Adder": {
+    "total_minterms_used": 7,
+    "max_fanout": 2,
+    "top_decoder_outputs": [
+      "Y[7]"
+    ],
+    "minterm_details": {
+      "Y[1]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Sum"
+        ]
+      },
+      "Y[2]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Sum"
+        ]
+      },
+      "Y[3]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Cout"
+        ]
+      },
+      "Y[4]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Sum"
+        ]
+      },
+      "Y[5]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Cout"
+        ]
+      },
+      "Y[6]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Cout"
+        ]
+      },
+      "Y[7]": {
+        "fanout": 2,
+        "drives_outputs": [
+          "Sum",
+          "Cout"
+        ]
+      }
+    }
+  },
+  "Half_Adder": {
+    "total_minterms_used": 3,
+    "max_fanout": 1,
+    "top_decoder_outputs": [
+      "Y[1]",
+      "Y[2]",
+      "Y[3]"
+    ],
+    "minterm_details": {
+      "Y[1]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Sum"
+        ]
+      },
+      "Y[2]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Sum"
+        ]
+      },
+      "Y[3]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Cout"
+        ]
+      }
+    }
+  },
+  "2_to_1_MUX": {
+    "total_minterms_used": 4,
+    "max_fanout": 1,
+    "top_decoder_outputs": [
+      "Y[2]",
+      "Y[3]",
+      "Y[5]",
+      "Y[7]"
+    ],
+    "minterm_details": {
+      "Y[2]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Y"
+        ]
+      },
+      "Y[3]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Y"
+        ]
+      },
+      "Y[5]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Y"
+        ]
+      },
+      "Y[7]": {
+        "fanout": 1,
+        "drives_outputs": [
+          "Y"
+        ]
+      }
+    }
+  }
+}

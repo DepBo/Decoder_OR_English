@@ -1,0 +1,13 @@
+max_fan_in,library,logical_tree_depth,internal_or_nodes,verilog_bytes,verilog_lines,yosys_pre_cells,mapped_cells,mapped_area_um2,delay_ps,critical_path_stages,critical_path_cells
+2,sky130_fd_sc_hd__tt_025C_1v80,6,63,4046,137,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+2,NangateOpenCellLibrary_typical,6,63,4046,137,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+4,sky130_fd_sc_hd__tt_025C_1v80,3,21,1904,53,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+4,NangateOpenCellLibrary_typical,3,21,1904,53,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+8,sky130_fd_sc_hd__tt_025C_1v80,2,9,1294,29,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+8,NangateOpenCellLibrary_typical,2,9,1294,29,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+16,sky130_fd_sc_hd__tt_025C_1v80,2,5,1105,21,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+16,NangateOpenCellLibrary_typical,2,5,1105,21,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+32,sky130_fd_sc_hd__tt_025C_1v80,2,3,1009,17,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+32,NangateOpenCellLibrary_typical,2,3,1009,17,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"
+64,sky130_fd_sc_hd__tt_025C_1v80,1,1,913,13,63,23,136.3808,492.70,4,"sky130_fd_sc_hd__nor4_1; sky130_fd_sc_hd__nand4_1; sky130_fd_sc_hd__nor2_1; sky130_fd_sc_hd__nand2_1"
+64,NangateOpenCellLibrary_typical,1,1,913,13,63,22,28.9940,232.35,4,"NOR4_X1; NAND4_X1; OR2_X1; OR3_X1"

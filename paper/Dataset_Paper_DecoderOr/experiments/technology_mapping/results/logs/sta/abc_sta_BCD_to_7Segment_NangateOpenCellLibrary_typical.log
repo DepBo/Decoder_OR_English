@@ -1,0 +1,11 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/BCD_to_7Segment_mapped_NangateOpenCellLibrary_typical.v; stime -p".
+
+Library "NangateOpenCellLibrary" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 10 dont_use).  Time =     0.16 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+WireLoad = "none"  [1;33mGates =     24[0m ( 16.7 %)   [1;32mCap =  3.5 ff[0m (  0.0 %)   [1;36mArea =       23.67[0m (100.0 %)   [1;35mDelay =   113.42 ps[0m  ( 16.7 %)               
+Path  0 --       4 : 0    6 pi        A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =  10.0 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --      15 : 1    3 INV_X1    A =   0.53  Df =  16.6   -8.8 ps  S =  13.8 ps  Cin =  1.6 ff  Cout =   5.0 ff  Cmax =  60.7 ff  G =  288  
+Path  2 --      22 : 4    2 AOI211_X1 A =   1.33  Df =  81.6  -39.9 ps  S =  47.6 ps  Cin =  1.6 ff  Cout =   3.2 ff  Cmax =  14.5 ff  G =  203  
+Path  3 --      24 : 5    1 OAI221_X1 A =   1.60  Df = 113.4  -20.3 ps  S =  26.7 ps  Cin =  1.6 ff  Cout =   0.0 ff  Cmax =  22.2 ff  G =    0  
+Start-point = pi3.  End-point = po0.
+

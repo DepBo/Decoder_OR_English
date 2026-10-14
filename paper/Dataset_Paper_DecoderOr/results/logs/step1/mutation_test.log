@@ -1,0 +1,51 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe verification/mutation_test.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 0.19s
+
+--- STDOUT ---
+=================================================================
+  Decoder-OR Oracle & Routing Mutation Testing Campaign
+  Mathematical Ground-Truth Sensitivity Verification
+=================================================================
+
+Total Mutations Injected : 78
+Killed Mutations [FAIL]  : 78
+Survived Mutations [PASS]: 0
+Mutation Kill Rate       : 100.00%
+
+--- Results by Circuit ---
+  Half_Adder        : 16/16 killed (100.0%)
+  Full_Adder        : 16/16 killed (100.0%)
+  2_to_1_MUX        : 14/14 killed (100.0%)
+  BCD_to_7Segment   : 16/16 killed (100.0%)
+  3bit_Comparator   : 16/16 killed (100.0%)
+
+--- Results by Mutation Type ---
+  M01_remove_valid_minterm        :  5/ 5 killed (100.0%)
+  M02_add_incorrect_minterm       :  5/ 5 killed (100.0%)
+  M03_replace_valid_minterm       :  5/ 5 killed (100.0%)
+  M04_remove_entire_output_mapping:  5/ 5 killed (100.0%)
+  M05_inject_wrong_output_mapping :  5/ 5 killed (100.0%)
+  M06_swap_output_mappings        :  4/ 4 killed (100.0%)
+  M07_duplicate_minterm           :  5/ 5 killed (100.0%)
+  M08_corrupt_multiple_entries    :  5/ 5 killed (100.0%)
+  R01_routing_remove_pin          :  5/ 5 killed (100.0%)
+  R02_routing_add_incorrect_pin   :  5/ 5 killed (100.0%)
+  R03_routing_replace_pin         :  5/ 5 killed (100.0%)
+  R04_routing_clear_output        :  5/ 5 killed (100.0%)
+  R05_routing_swap_outputs        :  4/ 4 killed (100.0%)
+  R06_routing_duplicate_pin       :  5/ 5 killed (100.0%)
+  R07_routing_out_of_range_pin    :  5/ 5 killed (100.0%)
+  R08_routing_corrupt_multiple    :  5/ 5 killed (100.0%)
+
+=================================================================
+  [SUCCESS] All injected mutations were reliably killed by the oracle.
+  Verification results recorded to:
+    - verification/mutation_results.csv
+    - verification/mutation_summary.json
+=================================================================
+
+
+--- STDERR ---
+

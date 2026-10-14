@@ -1,0 +1,29 @@
+{
+  "system": "Full_Adder_Decoder_OR",
+  "architecture": {
+    "core_decoder": "3-to-8_Active_High",
+    "inputs": [
+      "A",
+      "B",
+      "Cin"
+    ],
+    "outputs": [
+      "Sum",
+      "Cout"
+    ]
+  },
+  "automated_routing_matrix": {
+    "output_OR_Sum": [
+      "Y1",
+      "Y2",
+      "Y4",
+      "Y7"
+    ],
+    "output_OR_Cout": [
+      "Y3",
+      "Y5",
+      "Y6",
+      "Y7"
+    ]
+  }
+}

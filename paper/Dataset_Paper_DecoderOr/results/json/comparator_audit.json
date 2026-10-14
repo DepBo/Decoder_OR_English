@@ -1,0 +1,22 @@
+{
+  "A_gt_B": {
+    "active_routing_entries": 32640,
+    "internal_or_nodes": 10923,
+    "tree_depth": 8,
+    "max_fan_in": 4
+  },
+  "A_eq_B": {
+    "active_routing_entries": 256,
+    "internal_or_nodes": 85,
+    "tree_depth": 4,
+    "max_fan_in": 4
+  },
+  "A_lt_B": {
+    "active_routing_entries": 32640,
+    "internal_or_nodes": 10923,
+    "tree_depth": 8,
+    "max_fan_in": 4
+  },
+  "total_internal_or_nodes": 21931,
+  "reference_match": true
+}

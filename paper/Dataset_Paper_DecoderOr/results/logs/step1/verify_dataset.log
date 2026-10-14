@@ -1,0 +1,43 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe verify_dataset.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 0.11s
+
+--- STDOUT ---
+============================================================
+  Benchmark Dataset Verification
+  Decoder-OR Logic Design â€“ Automated Checker
+============================================================
+
+[1] Half_Adder
+     Inputs : ['A', 'B']
+     Outputs: ['Sum', 'Cout']
+  [PASS] Half_Adder  â€” all 4 minterms verified correctly.
+
+[2] Full_Adder
+     Inputs : ['A', 'B', 'Cin']
+     Outputs: ['Sum', 'Cout']
+  [PASS] Full_Adder  â€” all 8 minterms verified correctly.
+
+[3] 2_to_1_MUX
+     Inputs : ['S', 'I0', 'I1']
+     Outputs: ['Y']
+  [PASS] 2_to_1_MUX  â€” all 8 minterms verified correctly.
+
+[4] BCD_to_7Segment
+     Inputs : ['A', 'B', 'C', 'D']
+     Outputs: ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+  [PASS] BCD_to_7Segment  â€” all 16 minterms verified correctly.
+
+[5] 3bit_Comparator
+     Inputs : ['A2', 'A1', 'A0', 'B2', 'B1', 'B0']
+     Outputs: ['A_gt_B', 'A_eq_B', 'A_lt_B']
+  [PASS] 3bit_Comparator  â€” all 64 minterms verified correctly.
+
+============================================================
+  [OK] ALL CIRCUITS PASSED â€” dataset is mathematically correct.
+============================================================
+
+
+--- STDERR ---
+

@@ -1,0 +1,33 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe audit_results.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 0.27s
+
+--- STDOUT ---
+======================================================================
+AUTOMATED RESEARCH INTEGRITY AUDIT
+======================================================================
+[PASS        ] CHECK_1: CSV values match JSON values
+[PASS        ] CHECK_2: Summary values match raw experiment outputs
+[PASS        ] CHECK_3: Reported cell counts match netlist statistics
+[PASS        ] CHECK_4: Buffer counts match the generated netlists
+[PASS        ] CHECK_5: SPICE .measure values match CSV
+[PASS        ] CHECK_6: No PASS result has non-zero tool exit code
+[PASS        ] CHECK_7: No result marked PASS has incomplete output
+[PASS        ] CHECK_8: No result contains NaN unexpectedly
+[PASS        ] CHECK_9: No result claims OpenROAD execution if unavailable
+[PASS        ] CHECK_10: No result claims post-route timing without routing
+
+--- Part 10: Specific Scientific Checks ---
+[PASS        ] SCI_CHECK_A: ABC Repair: Zero buffers at N<=8 attributed to sizing, not buffer insertion
+[PASS        ] SCI_CHECK_B: SPICE N=64: Incomplete switching explicitly identified and flagged
+[PASS        ] SCI_CHECK_C: Voltage Integrity: Overshoot/undershoot analyzed as capacitive feedthrough
+[PASS        ] SCI_CHECK_D: Energy Verification: Integral of VDD * I_supply over 2.5ns transient cycle
+[PASS        ] SCI_CHECK_E: Physical Limits: ABC logic buffering distinguished from unexecuted DEF routing
+
+[OK] Wrote final audit report to: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\results\final\FINAL_AUDIT.md
+======================================================================
+
+
+--- STDERR ---
+

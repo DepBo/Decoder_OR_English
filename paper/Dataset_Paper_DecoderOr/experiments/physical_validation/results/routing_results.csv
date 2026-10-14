@@ -1,0 +1,8 @@
+design,requested_fanout,routing_status,layers_used,drc_violations,wire_length_um,tool_notes
+fanout_test_1,1,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_2,2,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_4,4,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_8,8,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_16,16,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_32,32,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.
+fanout_test_64,64,ENVIRONMENT_LIMITED,met1-met4 (configured in openroad_flow.tcl),N/A (TritonRoute unavailable),N/A,OpenROAD/TritonRoute binary not installed in environment; Tcl routing flow generated.

@@ -1,0 +1,23 @@
+{
+  "system": "Half_Adder_Decoder_OR",
+  "architecture": {
+    "core_decoder": "2-to-4_Active_High",
+    "inputs": [
+      "A",
+      "B"
+    ],
+    "outputs": [
+      "Sum",
+      "Cout"
+    ]
+  },
+  "automated_routing_matrix": {
+    "output_OR_Sum": [
+      "Y1",
+      "Y2"
+    ],
+    "output_OR_Cout": [
+      "Y3"
+    ]
+  }
+}

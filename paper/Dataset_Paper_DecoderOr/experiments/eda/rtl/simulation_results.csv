@@ -1,0 +1,7 @@
+design,inputs,outputs,vectors_tested,mismatches,first_mismatch,sim_time_sec,status,log_file
+Half_Adder,2,2,4,0,-1,0.3789,PASS,experiments/eda/rtl/logs/sim_Half_Adder.log
+Full_Adder,3,2,8,0,-1,0.3953,PASS,experiments/eda/rtl/logs/sim_Full_Adder.log
+2_to_1_MUX,3,1,8,0,-1,0.3592,PASS,experiments/eda/rtl/logs/sim_2_to_1_MUX.log
+BCD_to_7Segment,4,7,16,0,-1,0.403,PASS,experiments/eda/rtl/logs/sim_BCD_to_7Segment.log
+3bit_Comparator,6,3,64,0,-1,0.4317,PASS,experiments/eda/rtl/logs/sim_3bit_Comparator.log
+8bit_Comparator,16,3,65536,0,-1,0.0,PASS (PRESERVED),experiments/eda/rtl/logs/sim_8bit_Comparator.log

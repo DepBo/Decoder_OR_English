@@ -1,0 +1,13 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/3bit_Comparator_mapped_sky130_fd_sc_hd__tt_025C_1v80.v; stime -p".
+
+Library "sky130_fd_sc_hd__tt_025C_1v80" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib" has 334 cells (94 skipped: 63 seq; 13 tri-state; 18 no func; 0 dont_use).  Time =     0.28 sec
+Warning: Detected 9 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+WireLoad = "none"  [1;33mGates =     44[0m (  4.5 %)   [1;32mCap =  5.8 ff[0m (  7.7 %)   [1;36mArea =      260.25[0m ( 75.0 %)   [1;35mDelay =   869.58 ps[0m  ( 31.8 %)               
+Path  0 --       5 : 0   10 pi                       A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =  19.9 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --      19 : 3    2 sky130_fd_sc_hd__or3b_1  A =   8.76  Df = 371.4 -222.6 ps  S =  76.8 ps  Cin =  1.6 ff  Cout =   4.7 ff  Cmax = 167.6 ff  G =  293  
+Path  2 --      23 : 5    1 sky130_fd_sc_hd__o32ai_1 A =   8.76  Df = 492.4 -272.6 ps  S = 203.7 ps  Cin =  2.3 ff  Cout =   2.4 ff  Cmax =  46.7 ff  G =   98  
+Path  3 --      28 : 3    2 sky130_fd_sc_hd__a21oi_1 A =   5.00  Df = 601.6 -213.9 ps  S = 145.9 ps  Cin =  2.3 ff  Cout =   4.8 ff  Cmax =  74.2 ff  G =  200  
+Path  4 --      36 : 5    1 sky130_fd_sc_hd__a41oi_1 A =   8.76  Df = 765.0 -264.9 ps  S = 131.8 ps  Cin =  2.3 ff  Cout =   1.7 ff  Cmax =  65.9 ff  G =   67  
+Path  5 --      39 : 3    1 sky130_fd_sc_hd__or3_1   A =   6.26  Df = 869.6  -32.8 ps  S =  44.0 ps  Cin =  1.5 ff  Cout =   0.0 ff  Cmax = 167.6 ff  G =    0  
+Start-point = pi4.  End-point = po2.
+

@@ -1,0 +1,17 @@
+STDOUT:
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev (Debian 5.032-1)
+- Verilator: Built from 0.021 MB sources in 2 modules, into 0.016 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.033 s (elab=0.001, cvt=0.004, bld=0.000); cpu 0.014 s on 1 threads; alloced 7.859 MB
+
+STDERR:
+%Warning-DECLFILENAME: /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/generated/Half_Adder.v:6:8: Filename 'Half_Adder' does not match MODULE name: 'Half_Adder_Decoder_OR'
+    6 | module Half_Adder_Decoder_OR (
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=5.032
+                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/generated/Half_Adder.v:14:16: Bits of signal are not used: 'Y'[0]
+                                                                                                                              : ... note: In instance 'Half_Adder_Decoder_OR'
+   14 |     wire [3:0] Y;
+      |                ^
+
+EXIT_CODE: 0

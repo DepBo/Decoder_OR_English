@@ -1,0 +1,9 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/2_to_1_MUX_mapped_NangateOpenCellLibrary_typical.v; stime -p".
+
+Library "NangateOpenCellLibrary" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 10 dont_use).  Time =     0.17 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+WireLoad = "none"  [1;33mGates =      1[0m (  0.0 %)   [1;32mCap =  0.9 ff[0m (  0.0 %)   [1;36mArea =        1.86[0m (100.0 %)   [1;35mDelay =    49.25 ps[0m  (100.0 %)               
+Path  0 --       3 : 0    1 pi      A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   1.9 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --       5 : 3    1 MUX2_X1 A =   1.86  Df =  49.2  -10.4 ps  S =   8.0 ps  Cin =  1.2 ff  Cout =   0.0 ff  Cmax =  60.5 ff  G =    0  
+Start-point = pi2.  End-point = po0.
+

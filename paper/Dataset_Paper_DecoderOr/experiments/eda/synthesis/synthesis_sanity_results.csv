@@ -1,0 +1,7 @@
+design,top_module,yosys_returncode,cells,wires,wire_bits,warnings,errors,synthesis_time_sec,status,log_file
+Half_Adder,Half_Adder_Decoder_OR,0,2,5,8,0,0,0.2002,PASS,experiments/eda/synthesis/logs/yosys_sanity_Half_Adder.log
+Full_Adder,Full_Adder_Decoder_OR,0,7,10,17,0,0,0.1842,PASS,experiments/eda/synthesis/logs/yosys_sanity_Full_Adder.log
+2_to_1_MUX,_2_to_1_MUX_Decoder_OR,0,4,7,14,0,0,0.1865,PASS,experiments/eda/synthesis/logs/yosys_sanity_2_to_1_MUX.log
+BCD_to_7Segment,BCD_to_7Segment_Decoder_OR,0,34,41,56,0,0,0.1818,PASS,experiments/eda/synthesis/logs/yosys_sanity_BCD_to_7Segment.log
+3bit_Comparator,_3bit_Comparator_Decoder_OR,0,62,68,131,0,0,0.1814,PASS,experiments/eda/synthesis/logs/yosys_sanity_3bit_Comparator.log
+8bit_Comparator,_8bit_Comparator_Decoder_OR,0,65534,65550,131085,0,0,18.445,PASS,experiments/eda/synthesis/logs/yosys_sanity_8bit_Comparator.log

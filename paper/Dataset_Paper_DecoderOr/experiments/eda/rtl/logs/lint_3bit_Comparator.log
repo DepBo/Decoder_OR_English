@@ -1,0 +1,13 @@
+STDOUT:
+- V e r i l a t i o n   R e p o r t: Verilator 5.032 2025-01-01 rev (Debian 5.032-1)
+- Verilator: Built from 0.023 MB sources in 2 modules, into 0.035 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.028 s (elab=0.001, cvt=0.004, bld=0.000); cpu 0.011 s on 1 threads; alloced 8.012 MB
+
+STDERR:
+%Warning-DECLFILENAME: /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/eda/rtl/generated/3bit_Comparator.v:6:8: Filename '3bit_Comparator' does not match MODULE name: '_3bit_Comparator_Decoder_OR'
+    6 | module _3bit_Comparator_Decoder_OR (
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=5.032
+                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
+
+EXIT_CODE: 0

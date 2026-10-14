@@ -1,0 +1,18 @@
+stage,design,library,cells,area_um2,delay_ps,path_stages,buffers_inserted,repair_type,status
+Step 3B (Technology Mapping & STA),2_to_1_MUX,NangateOpenCellLibrary_typical,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),2_to_1_MUX,sky130_fd_sc_hd__tt_025C_1v80,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),3bit_Comparator,NangateOpenCellLibrary_typical,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),3bit_Comparator,sky130_fd_sc_hd__tt_025C_1v80,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),BCD_to_7Segment,NangateOpenCellLibrary_typical,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),BCD_to_7Segment,sky130_fd_sc_hd__tt_025C_1v80,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),Full_Adder,NangateOpenCellLibrary_typical,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),Full_Adder,sky130_fd_sc_hd__tt_025C_1v80,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),Half_Adder,NangateOpenCellLibrary_typical,,,,,0 (pure mapping),None,PASS
+Step 3B (Technology Mapping & STA),Half_Adder,sky130_fd_sc_hd__tt_025C_1v80,,,,,0 (pure mapping),None,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N1,sky130_fd_sc_hd,2,15.0144,209.56,N/A,0,Gate Sizing / Logic Restructuring,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N2,sky130_fd_sc_hd,3,22.5216,221.45,N/A,0,Gate Sizing / Logic Restructuring,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N4,sky130_fd_sc_hd,5,37.536,245.37,N/A,0,Gate Sizing / Logic Restructuring,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N8,sky130_fd_sc_hd,9,68.816,314.7,N/A,0,Gate Sizing / Logic Restructuring,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N16,sky130_fd_sc_hd,19,167.6608,435.36,N/A,2,Buffer Tree Insertion,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N32,sky130_fd_sc_hd,39,342.8288,435.56,N/A,6,Buffer Tree Insertion,PASS
+Step 3C (Fan-out Buffer Repair),Fanout_N64,sky130_fd_sc_hd,79,628.1024,484.66,N/A,14,Buffer Tree Insertion,PASS

@@ -1,0 +1,10 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/Full_Adder_mapped_NangateOpenCellLibrary_typical.v; stime -p".
+
+Library "NangateOpenCellLibrary" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/NangateOpenCellLibrary_typical.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 10 dont_use).  Time =     0.15 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+WireLoad = "none"  [1;33mGates =      5[0m ( 20.0 %)   [1;32mCap =  2.3 ff[0m (  0.0 %)   [1;36mArea =        5.59[0m (100.0 %)   [1;35mDelay =    87.85 ps[0m  ( 40.0 %)               
+Path  0 --       3 : 0    2 pi       A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   4.2 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --       8 : 2    2 XNOR2_X1 A =   1.60  Df =  43.3   -4.5 ps  S =  30.4 ps  Cin =  2.3 ff  Cout =   4.2 ff  Cmax =  26.0 ff  G =  173  
+Path  2 --       9 : 2    1 XNOR2_X1 A =   1.60  Df =  87.8  -13.9 ps  S =  10.8 ps  Cin =  2.3 ff  Cout =   0.0 ff  Cmax =  26.0 ff  G =    0  
+Start-point = pi2.  End-point = po1.
+

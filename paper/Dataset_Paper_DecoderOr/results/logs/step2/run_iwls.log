@@ -1,0 +1,34 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe experiments/iwls/run_iwls.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 120.45s
+
+--- STDOUT ---
+
+=========================================================================================================
+Benchmark  | In  | Out | States     | PLA PTerms | Routing Pins | Time (ms)  | Status
+---------------------------------------------------------------------------------------------------------
+5xp1       | 7   | 10  | 128        | 75         | 576          | 40.11      | PASS
+alu4       | 14  | 8   | 16,384     | 1028       | 62,256       | 4923.09    | PASS
+clip       | 9   | 5   | 512        | 167        | 1,280        | 100.28     | PASS
+con1       | 7   | 2   | 128        | 9          | 156          | 14.60      | PASS
+cordic     | 23  | 2   | 8,388,608  | 1206       | N/A          | N/A        | INFEASIBLE
+duke2      | 22  | 29  | 4,194,304  | 87         | N/A          | N/A        | INFEASIBLE
+e64        | 65  | 65  | 36,893,488,147,419,103,232 | 65         | N/A          | N/A        | INFEASIBLE
+ex1010     | 10  | 10  | 1,024      | 1024       | 1,471        | 122.12     | PASS
+misex1     | 8   | 7   | 256        | 32         | 548          | 45.36      | PASS
+rd53       | 5   | 3   | 32         | 32         | 42           | 5.12       | PASS
+rd73       | 7   | 3   | 128        | 141        | 192          | 22.47      | PASS
+rd84       | 8   | 4   | 256        | 256        | 411          | 31.51      | PASS
+squar5     | 5   | 8   | 32         | 32         | 85           | 9.48       | PASS
+table5     | 17  | 15  | 131,072    | 158        | 119,523      | 12867.11   | PASS
+=========================================================================================================
+
+[OK] IWLS results saved to:
+     - experiments\iwls\iwls_results.csv
+     - experiments\iwls\iwls_summary.json
+     - experiments\iwls/README.md
+
+
+--- STDERR ---
+

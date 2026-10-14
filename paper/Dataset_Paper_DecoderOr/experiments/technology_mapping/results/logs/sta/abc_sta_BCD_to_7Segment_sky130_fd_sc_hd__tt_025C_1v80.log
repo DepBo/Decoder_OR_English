@@ -1,0 +1,11 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/BCD_to_7Segment_mapped_sky130_fd_sc_hd__tt_025C_1v80.v; stime -p".
+
+Library "sky130_fd_sc_hd__tt_025C_1v80" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib" has 334 cells (94 skipped: 63 seq; 13 tri-state; 18 no func; 0 dont_use).  Time =     0.33 sec
+Warning: Detected 9 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+WireLoad = "none"  [1;33mGates =     19[0m (  5.3 %)   [1;32mCap =  5.2 ff[0m ( 11.1 %)   [1;36mArea =      116.36[0m ( 57.9 %)   [1;35mDelay =   544.81 ps[0m  ( 21.1 %)               
+Path  0 --       3 : 0    9 pi                       A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =  24.2 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --      17 : 3    2 sky130_fd_sc_hd__mux2_1  A =  11.26  Df = 302.7 -116.7 ps  S =  66.2 ps  Cin =  2.3 ff  Cout =   5.0 ff  Cmax = 173.0 ff  G =  204  
+Path  2 --      20 : 3    2 sky130_fd_sc_hd__a21oi_1 A =   5.00  Df = 452.7 -204.8 ps  S = 150.8 ps  Cin =  2.3 ff  Cout =   5.1 ff  Cmax =  74.2 ff  G =  203  
+Path  3 --      21 : 4    1 sky130_fd_sc_hd__a31o_1  A =   8.76  Df = 544.8 -131.9 ps  S =  23.2 ps  Cin =  2.4 ff  Cout =   0.0 ff  Cmax = 160.2 ff  G =    0  
+Start-point = pi2.  End-point = po3.
+

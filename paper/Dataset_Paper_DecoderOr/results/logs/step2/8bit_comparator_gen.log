@@ -1,0 +1,32 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe experiments/scalability/generate_8bit_comparator.py
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 7.72s
+
+--- STDOUT ---
+=================================================================
+  8-Bit Magnitude Comparator Scalability Benchmark
+  Evaluating Reviewer #1 R1.3 & Reviewer #2 R2.4 Stress Cases
+=================================================================
+
+Boolean Inputs              : 16 (two 8-bit operands: A[7:0], B[7:0])
+Decoder Output Pins         : 65,536 (16-to-65536 decoder)
+Output Logic Functions      : 3 (A>B: 32640, A==B: 256, A<B: 32640)
+Total Routing Connections   : 65,536
+JSON File Size              : 1.052 MB (1,103,570 bytes)
+Generated Verilog Size      : 2.224 MB (2,332,092 bytes)
+JSON Generation Time        : 463.67 ms
+JSON Parse Time             : 47.89 ms
+Validation Time             : 2061.67 ms
+OR-Tree Decomposition Time  : 409.72 ms
+Verilog Generation Time     : 4241.41 ms
+TOTAL Compilation Time      : 6350.97 ms
+Peak Memory Allocated       : 25.45 MB
+Max OR-Tree Depth           : 8 (fan-in <= 4 bounded)
+Total Internal OR Nodes     : 21,931 gates
+Benchmark Status            : PASS
+=================================================================
+
+
+--- STDERR ---
+

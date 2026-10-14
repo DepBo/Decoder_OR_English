@@ -1,0 +1,45 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe experiments/physical_validation/run_3d.py --fanout-max 64
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 5.72s
+
+--- STDOUT ---
+======================================================================
+STEP 3D: TRANSISTOR-LEVEL ELECTRICAL VALIDATION (SPICE)
+======================================================================
+Tool: ngspice (batch mode)
+PDK / Model: BSIM4 (Level 54, v4.7) 130nm CMOS
+Driver Dimensions: Wn=0.65um, Wp=1.00um, L=0.15um (Sky130 HD inverter)
+Operating Conditions: VDD = 1.80 V, Temp = 27 C
+Evaluated Fan-out: N in [1, 2, 4, 8, 16, 32, 64]
+----------------------------------------------------------------------
+
+--- Part A: Unbuffered Driver Fanout Sweep ---
+  N= 1 | tpHL= 24.28 ps | tpLH= 26.28 ps | trise= 42.89 ps | tfall= 38.17 ps | VOH=1.87V | VOL=-0.05V | Energy= 74.82 fJ
+  N= 2 | tpHL= 32.37 ps | tpLH= 35.46 ps | trise= 64.39 ps | tfall= 58.26 ps | VOH=1.85V | VOL=-0.04V | Energy=149.12 fJ
+  N= 4 | tpHL= 49.37 ps | tpLH= 55.64 ps | trise=109.30 ps | tfall= 98.87 ps | VOH=1.84V | VOL=-0.03V | Energy=357.41 fJ
+  N= 8 | tpHL= 84.53 ps | tpLH= 99.19 ps | trise=201.98 ps | tfall=182.75 ps | VOH=1.82V | VOL=-0.02V | Energy=988.41 fJ
+  N=16 | tpHL=157.00 ps | tpLH=196.31 ps | trise=390.55 ps | tfall=354.06 ps | VOH=1.81V | VOL=-0.01V | Energy=2634.95 fJ
+  N=32 | tpHL=306.13 ps | tpLH=394.91 ps | trise=767.40 ps | tfall=696.96 ps | VOH=1.81V | VOL=0.01V | Energy=8149.93 fJ
+  N=64 | tpHL=609.25 ps | tpLH=410.80 ps | trise=  0.00 ps | tfall=  0.00 ps | VOH=1.80V | VOL=0.62V | Energy=27631.98 fJ
+
+--- Part B: Buffered Driver (2-stage 1x->4x buffer) ---
+  N= 1 | tpHL= 76.18 ps | tpLH= 74.45 ps | trise= 44.22 ps | tfall= 45.42 ps | VOH=1.85V | VOL=-0.04V | Energy=419.37 fJ
+  N= 2 | tpHL= 79.43 ps | tpLH= 77.70 ps | trise= 49.34 ps | tfall= 50.62 ps | VOH=1.85V | VOL=-0.04V | Energy=470.31 fJ
+  N= 4 | tpHL= 85.25 ps | tpLH= 83.55 ps | trise= 59.46 ps | tfall= 60.41 ps | VOH=1.84V | VOL=-0.03V | Energy=591.16 fJ
+  N= 8 | tpHL= 95.56 ps | tpLH= 94.35 ps | trise= 79.50 ps | tfall= 79.22 ps | VOH=1.84V | VOL=-0.03V | Energy=896.07 fJ
+  N=16 | tpHL=114.32 ps | tpLH=114.90 ps | trise=121.00 ps | tfall=116.89 ps | VOH=1.83V | VOL=-0.02V | Energy=1696.79 fJ
+  N=32 | tpHL=149.53 ps | tpLH=156.73 ps | trise=208.10 ps | tfall=195.43 ps | VOH=1.82V | VOL=-0.02V | Energy=3678.23 fJ
+  N=64 | tpHL=220.09 ps | tpLH=250.09 ps | trise=387.63 ps | tfall=358.21 ps | VOH=1.81V | VOL=-0.01V | Energy=9488.45 fJ
+
+[OK] Wrote unbuffered SPICE fanout results to: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\spice_fanout_results.csv
+[OK] Wrote buffered SPICE results to: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\spice_buffer_results.csv
+[OK] Wrote SPICE summary to: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\experiments\physical_validation\results\spice_summary.json
+
+======================================================================
+STEP 3D ELECTRICAL VALIDATION COMPLETE
+======================================================================
+
+
+--- STDERR ---
+

@@ -1,0 +1,9 @@
+ABC command line: "read_lib /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib; read_verilog -m /mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/results/2_to_1_MUX_mapped_sky130_fd_sc_hd__tt_025C_1v80.v; stime -p".
+
+Library "sky130_fd_sc_hd__tt_025C_1v80" from "/mnt/d/Git/source/Github/paper/Dataset_Paper_DecoderOr/experiments/technology_mapping/libraries/sky130_fd_sc_hd__tt_025C_1v80.lib" has 334 cells (94 skipped: 63 seq; 13 tri-state; 18 no func; 0 dont_use).  Time =     0.29 sec
+Warning: Detected 9 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+WireLoad = "none"  [1;33mGates =      1[0m (  0.0 %)   [1;32mCap =  1.7 ff[0m ( 25.0 %)   [1;36mArea =       11.26[0m (  0.0 %)   [1;35mDelay =   260.32 ps[0m  (100.0 %)               
+Path  0 --       3 : 0    1 pi                      A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   3.5 ff  Cmax =   0.0 ff  G =    0  
+Path  1 --       5 : 3    1 sky130_fd_sc_hd__mux2_1 A =  11.26  Df = 260.3 -112.3 ps  S =  38.6 ps  Cin =  2.3 ff  Cout =   0.0 ff  Cmax = 173.0 ff  G =    0  
+Start-point = pi2.  End-point = po0.
+

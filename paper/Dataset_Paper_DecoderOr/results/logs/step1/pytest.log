@@ -1,0 +1,13 @@
+COMMAND: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr\.venv\Scripts\python.exe -m pytest -q
+CWD: D:\Git\source\Github\paper\Dataset_Paper_DecoderOr
+RETURNCODE: 0
+DURATION: 11.87s
+
+--- STDOUT ---
+........................................................................ [ 90%]
+........                                                                 [100%]
+80 passed in 11.21s
+
+
+--- STDERR ---
+
